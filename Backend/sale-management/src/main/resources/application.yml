@@ -30,6 +30,6 @@ cloudinary:
   secure: true
 
 twilio:
-  account-sid: ACe470770b4f1a732bc8d039797d8ec33a
-  auth-token: ed69f9839146b3fb5fac0b7c9b59de44
-  outgoing-sms-number: +15623143271
+  account-sid:
+  auth-token:
+  outgoing-sms-number: 
