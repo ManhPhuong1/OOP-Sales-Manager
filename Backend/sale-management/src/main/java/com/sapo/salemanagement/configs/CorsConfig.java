@@ -11,7 +11,7 @@ public class CorsConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfig = new CorsConfiguration();
-        corsConfig.addAllowedOrigin("http://localhost:3001"); // Cho phép truy cập từ origin này
+        corsConfig.addAllowedOrigin("http://localhost:3000"); // Cho phép truy cập từ origin này
         corsConfig.addAllowedMethod("*"); // Cho phép tất cả các phương thức HTTP (GET, POST, PUT, DELETE, vv)
         corsConfig.addAllowedHeader("*"); // Cho phép tất cả các tiêu đề HTTP
 
